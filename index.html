@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Travel Landing Page</title>
+
+</head>
+<body>
+	<section class="showcase ">
+		<header>
+			<h2 class="logo">Travel</h2>
+			<div class="toggle "></div>
+		</header>
+
+		<video src="https://player.vimeo.com/external/330412624.sd.mp4?s=853ea7644708b7986c992689dd351b0413d7b3ca&profile_id=164&oauth2_token_id=57447761" muted loop autoplay width="100%"></video>
+
+		<div class="overlay"></div>
+		
+		<div class="text">
+			<h2>Never Stop</h2>
+			<h3>Exploring The World</h3>
+			<p>lorem ipsum dolor sit amet consectetue adipisising elit.Alias dolor vero expedita animi perspiciatis ipsam dolorem obcaecati,facilis reprehenderit quas.</p>
+			<a href="#">Explore</a>
+		</div>
+
+
+		<ul class="social">
+			<li><a href="#"><img src="https://i.pinimg.com/736x/d5/18/ec/d518eceea19f4b1a2ee032ddc634dd7d.jpg"alt="" width="30px"></a></li>
+			<li><a href="#"><img src="https://image.flaticon.com/icons/png/512/124/124021.png"alt=""width="30px"></a></li>
+			<li><a href="#"><img src="https://www.freepnglogos.com/uploads/logo-ig-png/logo-ig-instagram-new-logo-vector-download-5.png"alt="" width="30px"></a></li>
+	    </ul>
+
+	</section>
+	    <div class="menu">
+	    	<ul>
+	    		
+	    		<li><a href="#">Home</a></li>
+	    		<li><a href="#">News</a></li>
+	    		<li><a href="#">Destination</a></li>
+	    		<li><a href="#">Blog</a></li>
+	    		<li><a href="#">Contact</a></li>
+
+	    	</ul>
+
+	    </div>
+	    <script>
+	    	const menuToggle = document.querySelector('.toggle')
+	    	const showcase = document.querySelector('.showcase')
+
+	    	menuToggle.addEventListener('click',() =>{
+	    		menuToggle.classList.toggle('active')
+	    		showcase.classList.toggle('active')
+
+	    	})
+	    </script>
+
+</body>
+</html>
